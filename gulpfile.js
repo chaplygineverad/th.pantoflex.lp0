@@ -120,9 +120,9 @@ gulp.task('deploy:style', function(){
 			browsers: ['last 2 versions'],
 			cascade: false 
 		}))
-		.pipe(mmq({
+/*		.pipe(mmq({
       		log: false
-    	}))
+    	}))*/
 		.pipe(cleanCSS({
 			level: 2
 		}))
