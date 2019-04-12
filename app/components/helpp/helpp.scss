@@ -37,6 +37,7 @@
     font-weight: 700;
     line-height: 36px;
     position: relative;
+    margin-bottom: 50px;
 
     &::before {
       content: '';
@@ -99,7 +100,7 @@
   }
 
   &__middle-item {
-    width: 383px;
+    width: 381px;
   }
 
   &__middle-img {
@@ -139,6 +140,7 @@
   &-bottom {
     height: 360px;
     padding-top: 171px;
+    margin-bottom: 70px;
     background: linear-gradient(to top, #47ccc8 0%, #2d3663 100%);
     position: relative;
 
@@ -211,6 +213,7 @@
     //help-bottom
     &-bottom {
       padding-top: 160px;
+      margin-bottom: 20px;
       &::before {
         background: url("../img/help-bg.jpg") no-repeat 50% 0;
       }
@@ -275,8 +278,9 @@
 
     //help-bottom
     &-bottom{
-      padding: 80px 0 40px;
+      padding: 80px 0 30px;
       height: auto;
+      margin-bottom: 0;
 
       &::before {
         display: none;
@@ -291,7 +295,7 @@
       }
     }
     &__bottom-title  {
-
+      margin-bottom: 10px;
       &::before {
         top: -65px;
       }
@@ -399,9 +403,11 @@
       width: 300px;
     }
     &-bottom {
-      padding-top: 75px;
+      padding-top: 80px;
     }
     &__bottom-title {
+      font-size: 21px;
+      line-height: 1.2;
        br {
          display: none;
        }
