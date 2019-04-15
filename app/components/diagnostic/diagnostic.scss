@@ -1,0 +1,308 @@
+.diagnostic {
+  text-align: center;
+  padding: 20px 0 42px;
+
+  .title {
+    font-size: 36px;
+    line-height: 40px;
+    margin-bottom: 0;
+  }
+
+  &__items {
+    display: flex;
+    justify-content: space-around;
+    margin-top: -4px;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    position: relative;
+  }
+
+  &__diagram {
+    width: 330px;
+    height: 294px;
+  }
+  &__diagram-text {
+    position: absolute;
+    z-index: 10;
+    bottom: 87px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+
+  }
+
+  &__grey-text {
+    color: #575757;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 30px;
+    width: 100%;
+    border-top: 1px solid #b6b6b6;
+    margin-top: 60px;
+    padding-top: 7px;
+  }
+
+  &__title {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  &-bottom {
+    height: 360px;
+    padding-top: 173px;
+    background: linear-gradient(to top, #47ccc8 0%, #2d3663 100%);
+    position: relative;
+
+    &::before {
+      content: '';
+      display: block;
+      width: 50%;
+      height: 100%;
+      background: url("../img/diagnostic-bg.jpg") no-repeat 0% 0;
+      position: absolute;
+      top: 0;
+      left: 50%;
+    }
+  }
+
+  &__bottom {
+    width: 603px;
+    position: relative;
+    z-index: 1;
+    margin-left: -20px;
+
+    &::before {
+      content: '';
+      display: block;
+      width: 0;
+      height: 0;
+      background: transparent;
+      border: 25px solid transparent;
+      border-left: 25px solid #3a8196;
+      position: absolute;
+      left: 605px;
+      top: -16px;
+      z-index: 2;
+    }
+  }
+
+  &__bottom-title {
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    position: relative;
+
+    &::before {
+      content: '';
+      display: block;
+      width: 66px;
+      height: 60px;
+      background: url("../img/help-attention.png") no-repeat center center;
+      position: absolute;
+      top: -103px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+}
+
+@include r(1189) {
+  .diagnostic {
+    padding: 30px 0 40px;
+
+    .title {
+      br {
+        display: none;
+      }
+    }
+
+    &__title {
+      font-size: 19px;
+    }
+
+    &__items {
+      margin-top: -30px;
+    }
+    &__grey-text {
+      margin-top: 50px;
+    }
+    //typo common
+    &__bottom-title {
+      font-size: 30px;
+    }
+
+    //help-bottom
+    &-bottom {
+      padding-top: 160px;
+      &::before {
+        background: url("../img/diagnostic-bg.jpg") no-repeat 25% 0;
+      }
+    }
+
+    &__bottom {
+      width: 493px;
+      position: relative;
+      z-index: 1;
+      margin-left: 0;
+
+      &::before {
+        left: 502px;
+        top: 10px;
+      }
+    }
+  }
+
+
+}
+
+
+@include r(1023) {
+  .diagnostic {
+    padding: 30px 0;
+
+    &__items {
+      margin-top: 0;
+    }
+
+    .diagnistic__item {
+      margin-top: -30px;
+    }
+
+    &__grey-text {
+      margin-top: 14px;
+      font-size: 17px;
+    }
+
+    &__diagram {
+      width: 241px;
+      height: 204px;
+    }
+    &__diagram-text {
+      position: absolute;
+      z-index: 10;
+      bottom: 50px;
+      left: 52%;
+      -webkit-transform: translateX(-50%);
+      transform: translateX(-50%);
+      color: #000;
+      font-size: 17px;
+      font-weight: 400;
+    }
+
+    &__title {
+      font-size: 17px;
+    }
+
+    .title {
+      font-size: 32px;
+      line-height: 1.1;
+    }
+
+    &-bottom{
+      padding: 80px 0 40px;
+      height: auto;
+
+      &::before {
+        display: none;
+      }
+    }
+    &__bottom {
+      width: auto;
+      margin: 0 auto;
+
+      &::before {
+        display: none;
+      }
+    }
+    &__bottom-title  {
+
+      &::before {
+        top: -65px;
+      }
+    }
+  }
+}
+@include r(767) {
+  .diagnostic {
+    padding: 30px 0;
+    &__diagram {
+      width: 310px;
+      height: 295px;
+    }
+    &__items {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .diagnistic__item {
+      margin-top: -50px;
+    }
+
+    &__title {
+      margin-top: -10px;
+    }
+    &-bottom {
+      padding-top: 90px;
+    }
+    &__diagram-text {
+      font-size: 20px;
+      bottom: 100px;
+    }
+
+    &__grey-text {
+      margin-top: 19px;
+    }
+    .title {
+      font-size: 29px;
+    }
+  }
+}
+@include r(639) {
+  .diagnostic {
+
+    &__bottom-title {
+      font-size: 26px;
+    }
+    &__diagram {
+      width: 400px;
+      height: 345px;
+    }
+    .title {
+      font-size: 26px;
+    }
+  }
+}
+@include r(479) {
+  .diagnostic {
+    padding: 25px 0;
+
+
+  .diagnistic__item {
+      margin-top: -40px;
+    }
+    &__diagram {
+      width: 300px;
+      height: 265px;
+    }
+    &__diagram-text {
+      bottom: 75px;
+    }
+
+    &-bottom {
+      padding-top: 75px;
+    }
+    &__bottom-title {
+      br {
+        display: none;
+      }
+    }
+  }
+}
