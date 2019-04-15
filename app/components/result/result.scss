@@ -116,7 +116,219 @@
   }
 }
 
-@include r(1189) {
+.result {
+  padding: 50px 0 60px;
+  background: url("../img/result-bg.jpg") no-repeat center center;
+  background-size: cover;
+
+
+  &__title {
+    color: #fff;
+    text-align: center;
+  }
+
+  &__content {
+    display: flex;
+    padding-left: 92px;
+    padding-top: 50px;
+    justify-content: space-between;
+  }
+
+  &__left {
+    width: 450px;
+    height: 450px;
+    position: relative;
+  }
+
+  &__circle {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 1px solid  #3d909f;
+    position: relative;
+    background: url("../img/result-center.png") no-repeat center center;
+    animation: rotate 5s infinite linear;
+    z-index: 0;
+  }
+  @keyframes rotate {
+    from {
+      transform: rotate(0);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .dot-big {
+    width: 20px;
+    height: 20px;
+    background-color: #47ccc8;
+    border-radius: 50%;
+    position: absolute;
+
+    &-1 {
+      left: 367px;
+      top: 51px;
+    }
+    &-2 {
+      left: 5px;
+      top: 134px;
+    }
+    &-3 {
+      left: 118px;
+      top: 417px;
+    }
+  }
+  .dot-sm {
+    width: 10px;
+    height: 10px;
+    background-color: #47ccc8;
+    border-radius: 50%;
+    position: absolute;
+
+    &-1 {
+      left: 268px;
+      top: 1px;
+    }
+    &-2 {
+      left: 98px;
+      top: 409px;
+    }
+    &-3 {
+      left: 334px;
+      top: 411px;
+    }
+    &-4 {
+      left: 310px;
+      top: 424px;
+    }
+  }
+
+  &__arrows {
+    width: 309px;
+    padding-top: 20px;
+    margin-top: -20px;
+    height: 350px;
+    position: absolute;
+    left: 75px;
+    top: 70px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    animation: rotate 6s linear infinite reverse;
+    z-index: 2;
+  }
+  &__prod {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 700;
+    position: absolute;
+    left: 51%;
+    top: 195px;
+    transform: translateX(-50%);
+    z-index: 2;
+  }
+
+  &__right {
+    width: 335px;
+    height: 348px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 48px 26px 0 0;
+  }
+
+  &__item {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    position: relative;
+
+    &::before {
+      content: '';
+      display: block;
+      width: 71px;
+      height: 54px;
+      background: url("../img/result-1.png") no-repeat center center;
+      position: absolute;
+      left: -101px;
+      top: -5px;
+    }
+    .line{
+      width: 170px;
+      height: 1px;
+      background-color: #fff;
+      opacity: .67;
+      position: absolute;
+      top: 45%;
+      left: -271px;
+    }
+  }
+
+  &__item-1 {
+
+    .line {
+      &::before{
+        content: '';
+        display: block;
+        width: 70px;
+        height: 1px;
+        background-color: #fff;
+        opacity: .67;
+        transform: rotate(-45deg);
+        position: absolute;
+        left: -60px;
+        top: 25px;
+      }
+    }
+  }
+
+  &__item-2 {
+    &::before {
+      background: url("../img/result-2.png") no-repeat center center;
+    }
+
+    .line {
+      width: 200px;
+      top: 49%;
+      left: -300px;
+    }
+  }
+
+  &__item-3 {
+    &::before {
+      background: url("../img/result-3.png") no-repeat center center;
+    }
+    .line {
+      &::before{
+        content: '';
+        display: block;
+        width: 70px;
+        height: 1px;
+        background-color: #fff;
+        opacity: .67;
+        transform: rotate(45deg);
+        position: absolute;
+        left: -60px;
+        top: -25px;
+      }
+    }
+  }
+  &__bone {
+    width: 285.5px;
+    height: 655px;
+    position: absolute;
+    top: -149px;
+    left: -50px;
+    z-index: 1;
+    img {
+      width: 100%;
+    }
+  }
+}
+
+@include r(1199) {
   .testing {
 
     .title {
@@ -175,6 +387,308 @@
     }
     &__diagram-text {
       bottom: 97px;
+    }
+  }
+
+  .result {
+
+    &__content {
+      padding-left: 0;
+    }
+
+    &__right {
+      margin-right: 0;
+    }
+  }
+}
+
+@include r(1023) {
+  .testing {
+    padding: 40px 0;
+    &__content {
+      padding-top: 70px;
+    }
+    &__left, &__right {
+      padding: 60px 35px 10px;
+      width: 370px;
+      height: 180px;
+      //background: yellow;
+      text-align: center;
+    }
+
+    &__left {
+
+      &::before {
+        left: 32px;
+        top: 99px;
+      }
+      &::after {
+        top: 62%;
+        left: 50px;
+      }
+    }
+
+    &__right {
+
+      &::before {
+        right: 32px;
+        top: 99px;
+      }
+      &::after {
+        top: 62%;
+        right: 50px;
+      }
+    }
+
+    &__img {
+      margin-bottom: 20px;
+    }
+    &__left-diagram, &__right-diagram {
+      width: 250px;
+      top: -155px;
+    }
+
+    &__left-diagram {
+      right: 60px;
+    }
+    &__right-diagram {
+      left: 60px;
+    }
+
+    &__diagram-text {
+      top: 143px;
+      left: 52%;
+    }
+  }
+  .result {
+    &__left {
+      width: 354px;
+      height: 336px;
+    }
+    &__circle, &__arrows {
+      display: none;
+    }
+    &__content {
+      padding-top: 0;
+    }
+    &__bone {
+      width: 210px;
+      top: -89px;
+      left: -30px;
+    }
+
+    .line {
+      width: 30px;
+      left: -140px;
+      &::before {
+        display: none;
+      }
+    }
+
+    &__right {
+      width: 395px;
+      height: 288px;
+    }
+    &__prod {
+      display: none;
+    }
+  }
+}
+
+@include r(767) {
+  .testing {
+    padding: 30px 0;
+    .title {
+      font-size: 32px;
+    }
+
+    &__left, &__right {
+      padding: 60px 15px 10px;
+      width: 300px;
+
+      &::after {
+        width: 240px;
+      }
+    }
+    &__left {
+
+      &::before {
+        left: 16px;
+      }
+
+      &::after {
+        left: 30px;
+      }
+    }
+    &__right {
+      &::before {
+        right: 16px;
+      }
+
+      &::after {
+        right: 30px;
+      }
+    }
+
+    &__left-diagram {
+      right: 28px;
+    }
+
+    &__right-diagram {
+      left: 28px;
+    }
+  }
+  .result {
+    padding: 30px 0;
+    &__title {
+      margin-bottom: 15px;
+    }
+    &__left {
+      display: none;
+    }
+    .line {
+      display: none;
+    }
+    &__right {
+      display: block;
+      width: auto;
+      margin: 0 auto;
+      padding-left: 100px;
+      height: auto;
+    }
+    &__item {
+      margin-bottom: 25px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      &::before {
+        width: 61px;
+        height: 44px;
+        background-size: contain;
+        left: -71px;
+        top: 3px;
+      }
+    }
+  }
+}
+@include r(640) {
+  .testing {
+    .title {
+      font-size: 29px;
+    }
+    &__content {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &__left, &__right  {
+      width: 100%;
+      border: 1px solid rgba(0, 0, 0, .1);
+
+      &::before {
+        display: none;
+      }
+
+      &::after {
+        width: 80%;
+      }
+    }
+
+    &__left {
+      margin-bottom: 135px;
+    }
+
+    &__right {
+
+    }
+    &__left-diagram, &__right-diagram {
+      width: 270px;
+      top: -170px;
+    }
+    &__left-diagram {
+      right: 95px;
+
+    }
+    &__right-diagram {
+      left: 95px;
+    }
+    &__diagram-text {
+      top: 153px;
+    }
+  }
+  .result {
+    &__item {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+@include r(479) {
+  .testing {
+    padding: 25px 0;
+    .title {
+      font-size: 26px;
+    }
+
+    &__left, &__right  {
+      width: 260px;
+
+      &::before {
+        display: none;
+      }
+
+      &::after {
+        width: 80%;
+      }
+    }
+    &__content {
+      padding-top: 40px;
+    }
+
+    &__left {
+      margin-bottom: 100px;
+    }
+
+    &__right {
+
+    }
+    &__left-diagram, &__right-diagram {
+      width: 220px;
+      top: -130px;
+    }
+    &__left-diagram {
+      right: 20px;
+
+    }
+    &__right-diagram {
+      left: 20px;
+    }
+    &__diagram-text {
+      top: 124px;
+      font-size: 16px;
+    }
+  }
+  .result {
+    padding: 25px 0;
+    &__title {
+      margin-bottom: 62px;
+    }
+
+    &__right {
+      padding-left: 0;
+      text-align: center;
+    }
+    &__item {
+      margin-bottom: 70px;
+
+      &::before {
+        left: 50%;
+        top: -50px;
+        transform: translateX(-50%);
+      }
     }
   }
 }

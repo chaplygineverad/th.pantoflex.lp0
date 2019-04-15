@@ -46,7 +46,7 @@
   //operation-middle
 
   &-middle {
-    padding: 65px 0 67px;
+    padding: 55px 0 67px;
     background: #fff;
 
     .container {
@@ -102,7 +102,7 @@
   &-bottom {
     height: 360px;
     padding-top: 171px;
-    margin-bottom: 70px;
+    margin-bottom: 33px;
     background: linear-gradient(to top, #47ccc8 0%, #2d3663 100%);
     position: relative;
 
@@ -140,7 +140,7 @@
   }
 }
 
-@include r(1189) {
+@include r(1199) {
   .operation {
 
     //typo common
