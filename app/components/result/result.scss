@@ -1,0 +1,180 @@
+.testing {
+  padding: 60px 0;
+  background: url("../img/testing-bg.jpg") no-repeat 0 0;
+  background-size: cover;
+
+  .title {
+    margin-bottom: 70px;
+    text-align: center;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__left, &__right {
+    width: 480px;
+    height: 218px;
+    background: #fff;
+    border-radius: 5px;
+  }
+
+  &__left  {
+    text-align: left;
+    position: relative;
+    padding: 40px 140px 44px 82px;
+
+    &::before {
+      content: '';
+      display: block;
+      width: 18px;
+      height: 27px;
+      background: url("../img/result-arrow.png") no-repeat center center;
+      position: absolute;
+      left: 32px;
+      top: 96px;
+      z-index: 1;
+      transform: rotate(180deg);
+    }
+
+    &::after {
+      content: '';
+      display: block;
+      width: 332px;
+      height: 1px;
+      background-color: #c7f0ee;
+      position: absolute;
+      left: 40px;
+      top: 50%;
+      z-index: 0;
+    }
+  }
+
+  &__right {
+    text-align: right;
+    position: relative;
+    padding: 40px 82px 44px 140px;
+
+    &::before {
+      content: '';
+      display: block;
+      width: 18px;
+      height: 27px;
+      background: url("../img/result-arrow.png") no-repeat center center;
+      position: absolute;
+      right: 32px;
+      top: 96px;
+      z-index: 1;
+    }
+
+    &::after {
+      content: '';
+      display: block;
+      width: 332px;
+      height: 1px;
+      background-color: #c7f0ee;
+      position: absolute;
+      right: 40px;
+      top: 50%;
+      z-index: 0;
+    }
+  }
+
+  &__text {
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22px;
+  }
+
+  &__img {
+    margin-bottom: 46px;
+  }
+
+  &__left-diagram, &__right-diagram {
+    position: absolute;
+    top: -85px;
+    width: 320px;
+    z-index: 2;
+  }
+  &__left-diagram {
+    right: -136px;
+  }
+  &__right-diagram {
+    left: -145px;
+  }
+  &__diagram-text {
+    position: absolute;
+    z-index: 10;
+    bottom: 107px;
+    left: 53%;
+    transform: translateX(-50%);
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+  }
+}
+
+@include r(1189) {
+  .testing {
+
+    .title {
+      font-size: 36px;
+      margin-bottom: 50px;
+    }
+
+    &__left, &__right {
+      width: 420px;
+      height: 190px;
+      background: #fff;
+      border-radius: 5px;
+    }
+
+    &__left  {
+      padding: 40px 100px 44px 45px;
+
+      &::before {
+        left: 20px;
+        top: 82px;
+      }
+
+      &::after {
+        left: 30px;
+        width: 270px;
+      }
+    }
+
+    &__right {
+      padding: 40px 45px 44px 100px;
+
+      &::before {
+        right: 20px;
+        top: 82px;
+      }
+
+      &::after {
+        right: 30px;
+        width: 270px;
+      }
+    }
+
+    &__img {
+      margin-bottom: 46px;
+    }
+
+    &__left-diagram, &__right-diagram {
+      top: -85px;
+      width: 290px;
+    }
+    &__left-diagram {
+      right: -100px;
+    }
+    &__right-diagram {
+      left: -110px;
+    }
+    &__diagram-text {
+      bottom: 97px;
+    }
+  }
+}
