@@ -1,0 +1,141 @@
+.usage {
+  background-image: linear-gradient(to top, #47ccc8 0%, #2d3663 100%);
+  text-align: center;
+  padding: 60px 0 70px;
+
+  &__title {
+    color: #fff;
+    margin-bottom: 50px;
+  }
+  &__content {
+    counter-reset: usage;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 6px 0 3px;
+  }
+  &__item {
+    width: 280px;
+  }
+  &__img {
+    margin-bottom: 18px;
+    position: relative;
+
+    &::before {
+      counter-increment: usage;
+      content: counter(usage);
+      display: block;
+      position: absolute;
+      top: -18px;
+      right: 18px;
+      color: #fff;
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 40px;
+    }
+  }
+  &__descr {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+}
+
+@include r(1199) {
+  .usage {
+    padding: 60px 0;
+
+    &__title {
+      margin-bottom: 30px;
+    }
+
+    &__item {
+      width: 240px;
+    }
+    &__descr {
+      font-size: 16px;
+    }
+    &__img {
+      margin-bottom: 10px;
+    }
+  }
+}
+
+
+@include r(1023) {
+   .usage {
+     padding: 40px 0;
+
+     &__title {
+       margin-bottom: 30px;
+     }
+
+     &__content {
+       flex-wrap: wrap;
+       justify-content: center;
+     }
+
+     &__item {
+       width: 280px;
+       margin: 25px 70px 0 0;
+
+       &:nth-child(even) {
+         margin-right: 0;
+       }
+     }
+     &__img {
+       margin-bottom: 5px;
+     }
+   }
+ }
+
+@include r(767) {
+  .usage {
+    padding: 30px 0;
+
+    &__title {
+      margin-bottom: 0;
+    }
+
+    &__item {
+      margin: 25px 45px 0 0;
+
+      &:nth-child(even) {
+        margin-right: 0;
+      }
+    }
+    &__img {
+      margin-bottom: 5px;
+    }
+  }
+}
+
+
+@include r(639) {
+  .usage {
+
+    &__item {
+      margin: 30px 0 0 0;
+
+    }
+    &__img {
+      margin-bottom: 0;
+    }
+
+    &__descr {
+      font-size: 18px;
+    }
+  }
+}
+@include r(639) {
+  .usage {
+    padding: 25px 0;
+    &__item {
+      margin: 25px 0 0 0;
+
+      &:first-child {
+        margin-top: 15px;
+      }
+    }
+  }
+}
