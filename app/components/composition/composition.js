@@ -15,13 +15,14 @@ window.addEventListener("scroll", function () {
     var scrolled = window.pageYOffset;
 
     //console.log(scrolled, Math.floor(getCoords(composition).top));
-    if (active.length) {
-        return;
-    }
+
     if (scrolled>=getCoords(composition).top) {
         for (var i=0; quoter.length; i++) {
             quoter[i].classList.add("composition__circle-go");
 
+            if(quoter[quoter.length - 1].classList.contains("composition__circle-go")){
+                return;
+            }
         }
     }
 

@@ -35,7 +35,7 @@
     color: #ffffff;
     font-size: 32px;
     font-weight: 700;
-    line-height: 36px;
+    line-height: 1.1;
     position: relative;
     margin-bottom: 50px;
 
@@ -157,7 +157,7 @@
   }
 
   &__bottom {
-    width: 493px;
+    width: 494px;
     position: relative;
     z-index: 1;
     margin-left: 645px;
@@ -341,7 +341,7 @@
       margin-bottom: 42px;
     }
 
-    &-bottom {
+    &-bottom.block {
       padding-top: 90px;
     }
   }
