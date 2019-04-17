@@ -16,17 +16,18 @@ window.addEventListener("scroll", function () {
     var active = document.querySelectorAll('.composition__circle-go');
 
 
-    if (scrolled>=getCoords(composition).top) {
-        for (var i=0; quoter.length; i++) {
+    if (scrolled >= getCoords(composition).top) {
+        for (var i = 0; quoter.length; i++) {
             quoter[i].classList.add("composition__circle-go");
 
-           if(quoter[quoter.length - 1].classList.contains("composition__circle-go")){
-            if(quoter[quoter.length - 1].classList.contains("composition__circle-go")){
-                return;
+            if (quoter[quoter.length - 1].classList.contains("composition__circle-go")) {
+                if (quoter[quoter.length - 1].classList.contains("composition__circle-go")) {
+                    return;
+                }
             }
         }
-    }
 
+    }
 });
 
 
