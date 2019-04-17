@@ -219,6 +219,8 @@
   &__price-box {
     display: flex;
     justify-content: space-around;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e3e3e3;
   }
   &__price {
     display: block;
@@ -257,7 +259,7 @@
   }
   &__timer-title {
     display: block;
-    margin: 20px auto 0;
+    margin: 6px auto 0;
     text-align: center;
     color: #5d6693;
     font-size: 16px;

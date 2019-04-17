@@ -1,0 +1,130 @@
+.popup {
+  display: flex !important;
+  width: 100% !important;
+  max-width: 891px;
+  max-height: 530px;
+  padding-left: 197px;
+  justify-content: space-between;
+  align-items: flex-end;
+  border-radius: 5px;
+  background: url(../img/header-bg.png) -715px -105px no-repeat;
+  &__product-box {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 411px;
+    left: unset;
+  }
+  &__man {
+    width: 411px;
+    height: 551px;
+    left: 50px;
+    order: 2;
+  }
+  &__product {
+    order: 1;
+    position: absolute;
+    left: -126px;
+    bottom: -4px;
+  }
+  &__man-prod {
+    display: flex;
+    margin-top: 0;
+  }
+  &__buy-form {
+    display: block;
+    margin: 20px -20px 20px 0;
+    padding: 23px 26px 25px;
+    &:before {
+      display: block;
+      width: 42px;
+      height: 147px;
+      position: absolute;
+      content: "";
+      background: url(../img/form-arrow.png) 0 0 no-repeat;
+      background-size: cover;
+      top: 222px;
+      right: -22px;
+    }
+  }
+  &__price-box {
+    padding-bottom: 10px;
+  }
+  &__form-fields {
+    display: block;
+  }
+  &__input-frame {
+    display: block;
+    position: relative;
+    margin: 0 auto 20px;
+    text-align: center;
+    border-radius: 25px;
+    border: 1px solid #e1e1e1;
+    outline: none;
+    input {
+      width: 100%;
+      padding: 18px 0 18px 42px;
+      color: #8f8f8f;
+      font-size: 14px;
+      font-weight: 400;
+      border: 0;
+      text-align: left;
+      outline: 0;
+      border-radius: 25px;
+      &:hover, &:focus {
+        -webkit-box-shadow: inset 0 0 5px 1px rgba(34, 35, 39, 0.3);
+        box-shadow: inset 0 0 5px 1px rgba(34, 35, 39, 0.3)
+      }
+    }
+    &.-name {
+      &:before {
+      display: block;
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      content: "";
+      background: url("./../img/input-name.png") no-repeat;
+      top: 13px;
+      left: 17px;
+      }
+    }
+    &.-phone {
+      &:before {
+        display: block;
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        content: "";
+        background: url("./../img/input-phone.png") no-repeat;
+        top: 17px;
+        left: 17px;
+      }
+    }
+  }
+
+}
+@media all and (max-width: 1199px) {
+  .popup {
+    &__product {
+      left: -125px;
+    }
+    &__buy-form {
+      display: block;
+      margin: 20px -20px 20px 0;
+      padding: 23px 26px 25px;
+    }
+  }
+}
+@media all and (max-width: 1023px) {
+  .popup {
+    max-width: 300px;
+    padding: 0;
+    background: none;
+    &__product-box {
+      display: none;
+    }
+    &__buy-form {
+      margin: auto;
+    }
+  }
+}

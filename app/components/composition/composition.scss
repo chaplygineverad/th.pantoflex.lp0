@@ -1,5 +1,6 @@
 .composition {
   display: block;
+  margin-bottom: 54px;
   &__title {
     display: block;
     max-width: 540px;
@@ -140,9 +141,6 @@
 }
 @media all and (max-width: 1199px) {
   .composition {
-    &__title {
-      margin-top: 0;
-    }
     &__component-box {
     display: block;
     width: 100%;
@@ -154,7 +152,9 @@
 }
 @media all and (max-width: 1023px) {
   .composition {
+    margin-bottom: 0;
     &__title {
+      margin-top: 0;
       font-size: 33px;
       line-height: 37px;
     }
