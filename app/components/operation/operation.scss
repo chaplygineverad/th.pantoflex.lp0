@@ -8,6 +8,15 @@
     margin: 21px 0 37px;
   }
 
+  .operation__button {
+    padding: 0;
+    a {
+      color: inherit;
+      display: inherit;
+      width: 100%;
+      padding: 10px 62px 12px;
+    }
+  }
   //typo common
 
   &__middle-title {
