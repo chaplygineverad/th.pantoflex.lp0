@@ -1,7 +1,7 @@
 var zoomBtn = document.querySelectorAll(".sertificate__zoom-icon");
 var zoomPopup = document.querySelector(".zoom-popup");
 
-for (let i=0; zoomBtn.length; i++) {
+for (let i=0; i<zoomBtn.length; i++) {
     zoomBtn[i].onclick = function (e) {
         zoomPopup.classList.toggle("zoom-popup-active");
 

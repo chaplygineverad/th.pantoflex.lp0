@@ -17,7 +17,7 @@ window.addEventListener("scroll", function () {
 
 
     if (scrolled >= getCoords(composition).top) {
-        for (var i = 0; quoter.length; i++) {
+        for (var i = 0; i<quoter.length; i++) {
             quoter[i].classList.add("composition__circle-go");
 
             if (quoter[quoter.length - 1].classList.contains("composition__circle-go")) {

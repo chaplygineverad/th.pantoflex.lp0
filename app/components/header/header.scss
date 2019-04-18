@@ -3,6 +3,10 @@
   width: 100%;
   background: url("./../img/header-bg.png") center 60px no-repeat;
   margin-bottom: 71px;
+  &.-bottom {
+    background-position: center top;
+    padding-top: 25px;
+  }
   /*_______________NAVIGATION________*/
   &__navigation {
     display: flex;
@@ -219,7 +223,7 @@
   &__price-box {
     display: flex;
     justify-content: space-around;
-    padding-bottom: 20px;
+    padding-bottom: 16px;
     border-bottom: 1px solid #e3e3e3;
   }
   &__price {
@@ -259,7 +263,7 @@
   }
   &__timer-title {
     display: block;
-    margin: 6px auto 0;
+    margin: 3px auto 0;
     text-align: center;
     color: #5d6693;
     font-size: 16px;
@@ -336,6 +340,9 @@
 }
 @media all and (max-width: 1199px){
   .header {
+    &.-bottom {
+      padding-top: 0;
+    }
     &__description {
       max-width: 399px;
     }
@@ -414,8 +421,8 @@
 }
 @media all and (max-width: 767px) {
   .header {
-    margin-bottom: 20px;
     padding-bottom: 30px;
+    margin-bottom: 0;
     &__navigation-links {
       display: none;
     }
@@ -485,6 +492,7 @@
   .header {
     &__banner {
       font-size: 25px;
+      line-height: 29px;
       span {
         font-size: 30px;
       }

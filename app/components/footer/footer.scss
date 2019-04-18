@@ -1,5 +1,5 @@
 .footer {
-	font-size: 16px;
+	font-size: 14px;
 	line-height: 1;
 	color: #666;
 
@@ -8,7 +8,7 @@
 
 .footer__wrap {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
 }
 
@@ -19,8 +19,8 @@
 }
 
 .footer__logo {
-	max-width: 54px;
-	margin-right: 20px;
+	margin: 9px auto 5px;
+	max-width: 45px;
 }
 
 .footer__name {
@@ -61,19 +61,6 @@
 	.footer__wrap {
 		flex-direction: column;
 		justify-content: center;
-	}
-	
-	.footer__logo {
-		margin-right: 0;
-		margin-bottom: 5px;
-	}
-
-	.footer__right {
-		display: none;
-	}
-
-	.footer__info {
-		display: none;
 	}
 
 	.footer__addres {
