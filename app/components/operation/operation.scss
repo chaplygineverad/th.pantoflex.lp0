@@ -2,6 +2,10 @@
   padding: 50px 0 70px;
   text-align: center;
 
+  .title {
+    line-height: 1.2;
+  }
+
   .subtitle {
     font-size: 22px;
     font-weight: 400;
@@ -55,7 +59,7 @@
   //operation-middle
 
   &-middle {
-    padding: 55px 0 67px;
+    padding: 53px 0 75px;
     background: #fff;
 
     .container {
@@ -212,6 +216,12 @@
     &-middle {
       padding: 40px 0 60px;
       background: #f6f9fb;
+
+      .title {
+        br {
+          display: none;
+        }
+      }
     }
     &__middle-items {
       margin-top: 10px;
