@@ -23,7 +23,7 @@
     margin-right: 20px;
     width: 380px;
     height: 100%;
-    min-height: 550px;
+    min-height: 555px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -37,7 +37,14 @@
     &__top {
       padding-bottom: 63px;
     }
-
+    @media screen and (min-width:0\0) {
+      .item__top-1 {
+        padding-bottom: 134px;
+      }
+      .item__top-3 {
+        padding-bottom: 178px;
+      }
+    }
     &__title {
       font-size: 18px;
       font-weight: 700;
