@@ -37,7 +37,7 @@
     font-weight: 700;
     line-height: 1.1;
     position: relative;
-    margin-bottom: 50px;
+    margin-bottom: 55px;
 
     &::before {
       content: '';
@@ -181,7 +181,7 @@
       border: 20px solid transparent;
       border-right: 20px solid #3a8196;
       position: absolute;
-      left: -100px;
+      left: -95px;
       top: -10px;
       z-index: 2;
     }
@@ -194,6 +194,7 @@
     //typo common
     &__bottom-title {
       font-size: 30px;
+      margin-bottom: 65px;
     }
 
 
@@ -288,7 +289,7 @@
 
     //help-bottom
     &-bottom{
-      padding: 80px 0 30px;
+      padding: 90px 0 30px;
       height: auto;
       margin-bottom: 0;
 
@@ -342,6 +343,7 @@
     &__middle-item {
       width: 270px;
 
+
       &:last-child {
         margin-top: 20px;
       }
@@ -369,7 +371,7 @@
 
     &__middle-item {
       width: 70%;
-      margin-bottom: 35px;
+      margin-bottom: 20px;
 
       &:last-child {
         margin: 0;
