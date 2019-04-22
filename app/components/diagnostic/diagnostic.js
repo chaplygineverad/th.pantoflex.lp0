@@ -67,7 +67,7 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
             textAdditionalCss: 'font-weight: 700;',
             percentageY: 108,
             animation: 1,
-            animateInView: false
+            animateInView: true
         });
 
         $("#diagnostic__diagram-2").circliful({
@@ -84,7 +84,7 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
             textAdditionalCss: 'font-weight: 700;',
             percentageY: 108,
             animation: 1,
-            animateInView: false
+            animateInView: true
         });
 
         $("#diagnostic__diagram-3").circliful({
@@ -101,7 +101,7 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
             textAdditionalCss: 'font-weight: 700;',
             percentageY: 108,
             animation: 1,
-            animateInView: false
+            animateInView: true
         });
     });
 }
