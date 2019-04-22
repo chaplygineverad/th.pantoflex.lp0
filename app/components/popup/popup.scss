@@ -103,6 +103,7 @@
   }
 
 }
+::-ms-clear { display: none; }
 @media all and (max-width: 1199px) {
   .popup {
     &__product {
