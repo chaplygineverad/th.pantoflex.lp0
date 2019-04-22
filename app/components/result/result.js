@@ -13,6 +13,7 @@ $(document).ready(function() {
         textAdditionalCss: 'font-weight: 700;',
         percentageY: 108,
         percentageX: 103,
+        animation: 1,
         animateInView: true
     });
 
