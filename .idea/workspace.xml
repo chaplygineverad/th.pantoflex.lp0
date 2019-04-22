@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80eec611-6c8b-4d8f-8432-071d264ba27a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/footer/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/footer/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/sertificate/sertificate.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/sertificate/sertificate.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/sertificate/sertificate.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/sertificate/sertificate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/sertificate/sertificate.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/sertificate/sertificate.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/sert1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/sert1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/sert3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/sert3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/sert4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/sert4.jpg" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -92,7 +90,7 @@
             <entry file="file://$PROJECT_DIR$/app/components/sertificate/sertificate.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="436">
-                  <caret line="55" column="3" lean-forward="true" selection-start-line="55" selection-start-column="3" selection-end-line="55" selection-end-column="3" />
+                  <caret line="55" column="3" selection-start-line="55" selection-start-column="3" selection-end-line="55" selection-end-column="3" />
                 </state>
               </provider>
             </entry>
@@ -282,15 +280,15 @@
       <workItem from="1555571494406" duration="19443000" />
       <workItem from="1555671404572" duration="890000" />
       <workItem from="1555916752470" duration="5312000" />
-      <workItem from="1555935954172" duration="4023000" />
+      <workItem from="1555935954172" duration="4727000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127008000" />
+    <option name="totallyTimeSpent" value="127712000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
       <window_info id="Gulp" order="2" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12961012" />
@@ -630,13 +628,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/sertificate/sertificate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/components/sertificate/sertificate.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -647,7 +638,14 @@
     <entry file="file://$PROJECT_DIR$/app/components/sertificate/sertificate.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="436">
-          <caret line="55" column="3" lean-forward="true" selection-start-line="55" selection-start-column="3" selection-end-line="55" selection-end-column="3" />
+          <caret line="55" column="3" selection-start-line="55" selection-start-column="3" selection-end-line="55" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/sertificate/sertificate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
         </state>
       </provider>
     </entry>
