@@ -1,4 +1,4 @@
-$(document).ready(function() {
+/*$(document).ready(function() {*/
     $("#diagnostic__diagram-1").circliful({
         animationStep: 2,
         foregroundBorderWidth: 5,
@@ -46,4 +46,5 @@ $(document).ready(function() {
         percentageY: 108,
         animateInView: true
     });
-});
+/*
+});*/
