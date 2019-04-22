@@ -21,7 +21,7 @@
             <div class="feedbacks__item feedbacks-item">
               <div class="feedbacks-item__top item__top-2">
                   <h4 class="feedbacks-item__title">“Чувствую себя вдвое моложе!”</h4>
-                  <p class="feedbacks-item__descr">Я раньше занималась муай-тай. Хоть и&nbsp;на любительском уровне, но травмировала ноги серьезно. Конечно, последствия проявились позже - после 50-ти.<br>
+                  <p class="feedbacks-item__descr">Я раньше занималась муай-тай. Хоть и&nbsp;на любительском уровне, но травмировала ноги серьезно. Конечно, последствия проявились позже - после 50-ти.
                       От прописанных врачами мазей боль уходила только на время, а потом опять возвращалась. Пробовала спастись бальзамами, охлаждающими пластырями
                       и&nbsp;даже несколько лет пила чай из цветков хризантемы. Если бы не моя подруга, наверное, и&nbsp;дальше бы мучилась, благо
                       она&nbsp;посоветовала мне этот крем. Боли
@@ -59,7 +59,9 @@
             <h3 class="feedbacks-form__title">Хотите также поделиться своим мнением о креме Пантофлекс?<br> Добавьте отзыв в форме ниже. </h3>
             <div class="feedbacks-form__inputs">
                 <div class="feedbacks-form__name feedbacks-form__inp"><input type="text" placeholder="Введите ваше имя" class="inp-name"></div>
-                <div class="feedbacks-form__age feedbacks-form__inp"><input type="text" placeholder="Укажите свой возраст" class="inp-age"></div>
+                <div class="feedbacks-form__age feedbacks-form__inp">
+                    <input class="required inp-age" id="field" type="number" maxlength="3" pattern="([0-9]|[0-9]|[0-9])" name="cvv"  placeholder="Укажите свой возраст">
+                </div>
                 <div class="feedbacks-form__feedback feedbacks-form__inp"><input type="text" placeholder="Ваш отзыв" class="inp-feedback"></div>
                 <label class="feedbacks-form__file">
                     <input type="file" class="file">
