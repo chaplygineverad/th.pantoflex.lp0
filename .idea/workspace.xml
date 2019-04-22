@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80eec611-6c8b-4d8f-8432-071d264ba27a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/components/diagnostic/diagnostic.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/diagnostic/diagnostic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/result/result.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/result/result.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -58,11 +58,8 @@
           <file leaf-file-name="diagnostic.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/components/diagnostic/diagnostic.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="272">
-                  <caret line="16" selection-start-line="16" selection-end-line="16" />
-                  <folding>
-                    <element signature="n#!!doc" expanded="true" />
-                  </folding>
+                <state relative-caret-position="487">
+                  <caret line="107" lean-forward="true" selection-start-line="107" selection-end-line="107" />
                 </state>
               </provider>
             </entry>
@@ -303,12 +300,12 @@
       <workItem from="1555485339527" duration="25740000" />
       <workItem from="1555571494406" duration="19443000" />
       <workItem from="1555671404572" duration="890000" />
-      <workItem from="1555916752470" duration="4080000" />
+      <workItem from="1555916752470" duration="4408000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121753000" />
+    <option name="totallyTimeSpent" value="122081000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -630,13 +627,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/header/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/components/header/header.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="367">
@@ -665,13 +655,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/diagnostic/diagnostic.js">
+    <entry file="file://$PROJECT_DIR$/app/components/header/header.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/diagnostic/diagnostic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="107" lean-forward="true" selection-start-line="107" selection-end-line="107" />
         </state>
       </provider>
     </entry>
