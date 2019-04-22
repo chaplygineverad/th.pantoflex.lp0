@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="80eec611-6c8b-4d8f-8432-071d264ba27a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/header/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/header/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/header/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/header/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/popup/popup.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/popup/popup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/popup/popup.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/popup/popup.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/sertificate/sertificate.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/sertificate/sertificate.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/sertificate/sertificate.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/sertificate/sertificate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/diagnostic/diagnostic.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/diagnostic/diagnostic.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,7 +19,7 @@
     <splitter split-orientation="horizontal" split-proportion="0.55266345">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/index.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="357">
@@ -46,7 +41,7 @@
             <entry file="file://$PROJECT_DIR$/app/components/header/header.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="272">
-                  <caret line="16" column="47" lean-forward="true" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+                  <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
                 </state>
               </provider>
             </entry>
@@ -54,26 +49,20 @@
           <file leaf-file-name="popup.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/components/popup/popup.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="833">
+                <state relative-caret-position="436">
                   <caret line="49" column="30" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="sertificate.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/components/sertificate/sertificate.js">
+          <file leaf-file-name="diagnostic.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/components/diagnostic/diagnostic.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="51">
-                  <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="sertificate.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/components/sertificate/sertificate.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="561">
-                  <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+                <state relative-caret-position="272">
+                  <caret line="16" selection-start-line="16" selection-end-line="16" />
+                  <folding>
+                    <element signature="n#!!doc" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -82,10 +71,10 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="composition.scss" pinned="false" current-in-tab="false">
+          <file leaf-file-name="composition.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/components/composition/composition.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="3332">
+                <state relative-caret-position="555">
                   <caret line="196" column="24" selection-start-line="196" selection-start-column="24" selection-end-line="196" selection-end-column="24" />
                 </state>
               </provider>
@@ -95,12 +84,12 @@
             <entry file="file://$PROJECT_DIR$/app/components/popup/popup.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="334">
-                  <caret line="105" column="30" lean-forward="true" selection-start-line="105" selection-start-column="30" selection-end-line="105" selection-end-column="30" />
+                  <caret line="105" column="30" selection-start-line="105" selection-start-column="30" selection-end-line="105" selection-end-column="30" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="header.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="header.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/components/header/header.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="367">
@@ -127,6 +116,7 @@
       <find>.form__field--input</find>
       <find>price-box</find>
       <find>.zoom-popup</find>
+      <find>feat</find>
     </findStrings>
     <replaceStrings>
       <replace>quoter</replace>
@@ -166,6 +156,7 @@
         <option value="$PROJECT_DIR$/app/components/popup/popup.scss" />
         <option value="$PROJECT_DIR$/app/components/header/header.html" />
         <option value="$PROJECT_DIR$/app/components/header/header.scss" />
+        <option value="$PROJECT_DIR$/app/components/diagnostic/diagnostic.js" />
       </list>
     </option>
   </component>
@@ -229,7 +220,7 @@
               <item name="Pantoflex" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="header" type="462c0819:PsiDirectoryNode" />
+              <item name="diagnostic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Pantoflex" type="b2602c69:ProjectViewProjectNode" />
@@ -312,12 +303,12 @@
       <workItem from="1555485339527" duration="25740000" />
       <workItem from="1555571494406" duration="19443000" />
       <workItem from="1555671404572" duration="890000" />
-      <workItem from="1555916752470" duration="2018000" />
+      <workItem from="1555916752470" duration="4080000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119691000" />
+    <option name="totallyTimeSpent" value="121753000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -354,13 +345,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/style/settings/_common.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
@@ -627,29 +611,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/components/composition/composition.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3332">
+        <state relative-caret-position="555">
           <caret line="196" column="24" selection-start-line="196" selection-start-column="24" selection-end-line="196" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/popup/popup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="49" column="30" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/sertificate/sertificate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/sertificate/sertificate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -663,14 +626,14 @@
     <entry file="file://$PROJECT_DIR$/app/components/popup/popup.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="334">
-          <caret line="105" column="30" lean-forward="true" selection-start-line="105" selection-start-column="30" selection-end-line="105" selection-end-column="30" />
+          <caret line="105" column="30" selection-start-line="105" selection-start-column="30" selection-end-line="105" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/components/header/header.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="47" lean-forward="true" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -678,6 +641,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="367">
           <caret line="395" column="26" selection-start-line="395" selection-start-column="26" selection-end-line="395" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/sertificate/sertificate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/sertificate/sertificate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/popup/popup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="49" column="30" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/diagnostic/diagnostic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
