@@ -80,16 +80,26 @@ file.addEventListener("change", function () {
     let filePath = file.value.slice(file.value.lastIndexOf('\\') + 1);
     alert('Ваш файл "' + filePath + '" был успешно добавлен.')
 });
-
+userAge.addEventListener('input', function () {
+    if(this.value.length > 3 || this.value > 150) {
+        alert('Введите число меньше 150');
+        this.value = '';
+    }
+});
 sendFeedbackBtn.addEventListener('click', function () {
     if(!userName.value || !userAge.value || !userFeedback.value){
         alert('Заполните все поля.');
     } else {
-        userName.value = '';
-        userAge.value = '';
-        userFeedback.value = '';
-        feedBackPop.classList.add('visible');
-    }
+        if(Number(userFeedback.value)){
+            alert('Введите Ваш отзыв.');
+            userFeedback.value = '';
+        } else {
+            userName.value = '';
+            userAge.value = '';
+            userFeedback.value = '';
+            feedBackPop.classList.add('visible');
+        }
+        }
 
     closePop.addEventListener('click', function () {
         feedBackPop.classList.remove('visible');
