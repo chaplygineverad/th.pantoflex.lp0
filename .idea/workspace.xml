@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80eec611-6c8b-4d8f-8432-071d264ba27a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/components/diagnostic/diagnostic.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/diagnostic/diagnostic.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/result/result.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/result/result.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/footer/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/footer/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/sertificate/sertificate.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/sertificate/sertificate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/sertificate/sertificate.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/sertificate/sertificate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/sertificate/sertificate.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/sertificate/sertificate.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,81 +19,80 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.55266345">
+    <splitter split-orientation="horizontal" split-proportion="0.7391041">
       <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="357">
-                  <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_common.sass" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/style/settings/_common.sass">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="561">
-                  <caret line="33" selection-start-line="33" selection-end-line="33" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/components/header/header.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="272">
-                  <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="popup.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/components/popup/popup.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="436">
-                  <caret line="49" column="30" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="diagnostic.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/components/diagnostic/diagnostic.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="487">
-                  <caret line="107" lean-forward="true" selection-start-line="107" selection-end-line="107" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
+        <splitter split-orientation="horizontal" split-proportion="0.54590166">
+          <split-first>
+            <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+              <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/app/index.html">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state>
+                      <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="_common.sass" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/app/style/settings/_common.sass">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="555">
+                      <caret line="33" selection-start-line="33" selection-end-line="33" />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="sertificate.html" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/app/components/sertificate/sertificate.html">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="-6">
+                      <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="sertificate.js" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/app/components/sertificate/sertificate.js">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="238">
+                      <caret line="14" selection-start-line="14" selection-end-line="14" />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-first>
+          <split-second>
+            <leaf>
+              <file leaf-file-name="sertificate.html" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/app/components/sertificate/sertificate.html">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="442">
+                      <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-second>
+        </splitter>
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="composition.scss" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/components/composition/composition.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="555">
-                  <caret line="196" column="24" selection-start-line="196" selection-start-column="24" selection-end-line="196" selection-end-column="24" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="popup.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/components/popup/popup.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="334">
-                  <caret line="105" column="30" selection-start-line="105" selection-start-column="30" selection-end-line="105" selection-end-column="30" />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="header.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/components/header/header.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="367">
                   <caret line="395" column="26" selection-start-line="395" selection-start-column="26" selection-end-line="395" selection-end-column="26" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="sertificate.scss" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/components/sertificate/sertificate.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="436">
+                  <caret line="55" column="3" lean-forward="true" selection-start-line="55" selection-start-column="3" selection-end-line="55" selection-end-column="3" />
                 </state>
               </provider>
             </entry>
@@ -131,12 +133,10 @@
         <option value="$PROJECT_DIR$/app/components/composition/header.js" />
         <option value="$PROJECT_DIR$/build/css/main.css" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/app/components/sertificate/sertificate.scss" />
         <option value="$PROJECT_DIR$/app/components/header-bottom/header-bottom.html" />
         <option value="$PROJECT_DIR$/app/components/composition/composition.js" />
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/style/main.sass" />
-        <option value="$PROJECT_DIR$/app/components/footer/footer.html" />
         <option value="$PROJECT_DIR$/app/img/logo-e.svg" />
         <option value="$PROJECT_DIR$/app/components/danger/danger.scss" />
         <option value="$PROJECT_DIR$/app/components/footer/footer.scss" />
@@ -148,12 +148,14 @@
         <option value="$PROJECT_DIR$/app/components/footer/footer.js" />
         <option value="$PROJECT_DIR$/app/style/settings/_common.sass" />
         <option value="$PROJECT_DIR$/app/components/popup/popup.html" />
-        <option value="$PROJECT_DIR$/app/components/sertificate/sertificate.html" />
-        <option value="$PROJECT_DIR$/app/components/sertificate/sertificate.js" />
         <option value="$PROJECT_DIR$/app/components/popup/popup.scss" />
         <option value="$PROJECT_DIR$/app/components/header/header.html" />
         <option value="$PROJECT_DIR$/app/components/header/header.scss" />
         <option value="$PROJECT_DIR$/app/components/diagnostic/diagnostic.js" />
+        <option value="$PROJECT_DIR$/app/components/footer/footer.html" />
+        <option value="$PROJECT_DIR$/app/components/sertificate/sertificate.html" />
+        <option value="$PROJECT_DIR$/app/components/sertificate/sertificate.js" />
+        <option value="$PROJECT_DIR$/app/components/sertificate/sertificate.scss" />
       </list>
     </option>
   </component>
@@ -211,27 +213,6 @@
               <item name="Pantoflex" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Pantoflex" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pantoflex" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="diagnostic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Pantoflex" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pantoflex" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="header-bottom" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Pantoflex" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pantoflex" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="popup" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Pantoflex" type="b2602c69:ProjectViewProjectNode" />
@@ -300,12 +281,13 @@
       <workItem from="1555485339527" duration="25740000" />
       <workItem from="1555571494406" duration="19443000" />
       <workItem from="1555671404572" duration="890000" />
-      <workItem from="1555916752470" duration="4408000" />
+      <workItem from="1555916752470" duration="5312000" />
+      <workItem from="1555935954172" duration="4023000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122081000" />
+    <option name="totallyTimeSpent" value="127008000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -523,20 +505,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/sertificate/sertificate.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="10" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/footer/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="88" selection-start-line="8" selection-start-column="88" selection-end-line="8" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/img/logo-e.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -599,24 +567,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/style/settings/_common.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/composition/composition.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="196" column="24" selection-start-line="196" selection-start-column="24" selection-end-line="196" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+        <state>
           <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/footer/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/popup/popup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="49" column="30" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/diagnostic/diagnostic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/header/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-720">
+          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -627,6 +609,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/composition/composition.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="192" column="35" lean-forward="true" selection-start-line="192" selection-start-column="35" selection-end-line="192" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/components/header/header.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="367">
@@ -634,38 +623,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/style/settings/_common.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/components/sertificate/sertificate.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+        <state relative-caret-position="-6">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/components/sertificate/sertificate.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/popup/popup.html">
+    <entry file="file://$PROJECT_DIR$/app/components/sertificate/sertificate.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="436">
-          <caret line="49" column="30" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/header/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/diagnostic/diagnostic.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="107" lean-forward="true" selection-start-line="107" selection-end-line="107" />
+          <caret line="55" column="3" lean-forward="true" selection-start-line="55" selection-start-column="3" selection-end-line="55" selection-end-column="3" />
         </state>
       </provider>
     </entry>

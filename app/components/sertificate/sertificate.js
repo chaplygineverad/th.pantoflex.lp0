@@ -1,5 +1,6 @@
 var zoomBtn = document.querySelectorAll(".sertificate__zoom-icon");
 var zoomPopup = document.querySelector(".zoom-popup");
+var zoomPopupInner = document.querySelector(".zoom-popup__inner");
 
 for (let i=0; i<zoomBtn.length; i++) {
     zoomBtn[i].onclick = function (e) {
@@ -9,11 +10,13 @@ for (let i=0; i<zoomBtn.length; i++) {
         const imgPath = this.nextElementSibling.src.slice(index);
         const fullPath = cdn_path + imgPath;
 
-        zoomPopup.innerHTML = "<img src='" +fullPath+ "'>";
+        zoomPopupInner.innerHTML = "<img src='" +fullPath+ "'>";
 
-        zoomPopup.onclick = function (c) {
-            zoomPopup.classList.remove("zoom-popup-active");
-        }
+
     };
-
 }
+
+zoomPopup.onclick = function (c) {
+    console.log("baka");
+    zoomPopup.classList.remove("zoom-popup-active");
+};

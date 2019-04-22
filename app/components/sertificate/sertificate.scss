@@ -39,14 +39,21 @@
 .zoom-popup {
   display: block;
   position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0, 0.55);
   z-index: -1;
   opacity: 0;
-  width: 500px;
-  //height: 650px;
-  margin: 0 auto;
-  transform: translate(-50%,-50%);
-  top: 50%;
-  left: 50%;
+  &__inner {
+    width: 500px;
+    //height: 650px;
+    margin: 0 auto;
+    transform: translate(0,25%);
+    top: 50%;
+    left: 50%;
+  }
 }
 
 .zoom-popup-active {
