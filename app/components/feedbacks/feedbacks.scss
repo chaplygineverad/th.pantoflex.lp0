@@ -118,7 +118,13 @@
   ::-moz-placeholder          {color:#a5a5a5;font-size:14px;}/* Firefox 19+ */
   :-moz-placeholder           {color:#a5a5a5;font-size:14px;}/* Firefox 18- */
   :-ms-input-placeholder      {color:#a5a5a5;font-size:14px;}
-
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+  input[type='number'] {
+    -moz-appearance: textfield;
+  }
   .feedbacks-form{
     background: #fff;
     display: flex;
