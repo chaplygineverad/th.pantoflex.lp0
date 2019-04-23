@@ -80,12 +80,12 @@ file.addEventListener("change", function () {
     let filePath = file.value.slice(file.value.lastIndexOf('\\') + 1);
     alert('Ваш файл "' + filePath + '" был успешно добавлен.')
 });
-userAge.addEventListener('input', function () {
-    if(this.value.length > 3 || this.value > 150) {
-        alert('Введите число меньше 150');
-        this.value = '';
-    }
-});
+// userAge.addEventListener('input', function () {
+//     if(this.value.length > 3 || this.value > 150) {
+//         alert('Введите число меньше 150');
+//         this.value = '';
+//     }
+// });
 sendFeedbackBtn.addEventListener('click', function () {
     if(!userName.value || !userAge.value || !userFeedback.value){
         alert('Заполните все поля.');
