@@ -140,15 +140,14 @@
     &::before {
       content: '';
       display: block;
-      width: 0;
-      height: 0;
-      background: transparent;
-      border: 20px solid transparent;
-      border-right: 20px solid #3a8196;
+      width: 40px;
+      height: 40px;
+      transform: rotate(45deg);
+      background: linear-gradient(145deg ,#38768e 0,#3a8296 50%,#3c8c9d 100%);
       position: absolute;
-      left: -95px;
+      left: -74px;
       top: -10px;
-      z-index: 2;
+      z-index: -1;
     }
   }
 }

@@ -149,7 +149,7 @@
     border: 1px solid  #3d909f;
     position: relative;
     background: url("../img/result-center.png") no-repeat center center;
-    animation: rotate 5s infinite linear;
+    animation: rotate 30s infinite linear;
     z-index: 0;
   }
   @keyframes rotate {
@@ -217,7 +217,7 @@
     transform: translateX(-50%);
     -webkit-transform-origin: center;
     transform-origin: center;
-    animation: rotate 6s linear infinite reverse;
+    animation: rotate 20s linear infinite reverse;
     z-index: 2;
   }
   &__prod {

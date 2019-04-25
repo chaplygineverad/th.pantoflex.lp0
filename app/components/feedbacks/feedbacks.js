@@ -1,6 +1,5 @@
 //-----------------------------------------------slider start
 let slider1 = $('.feedbacks-items');
-let sliderElements;
 
 function initSlider(slider, options) {
     slider.on('init', function () {
@@ -40,7 +39,7 @@ $(window).on('resize', showSlider);
 //----------------------------------------slider end
 
 //----------------------------------------open slide start
-let slides = document.querySelectorAll('.feedbacks-item');
+let slides = document.querySelectorAll('.feedbacks-item.slick-slide');
 let slider = document.querySelector('.slick-track');
 for (let i = 0; i < slides.length; i++){
     let openSlide = slides[i].querySelector('.open-slide');

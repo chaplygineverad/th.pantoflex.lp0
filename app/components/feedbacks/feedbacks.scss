@@ -114,10 +114,10 @@
 
 
   //form-------------------------------
-  ::-webkit-input-placeholder {color:#a5a5a5;font-size:14px;}
-  ::-moz-placeholder          {color:#a5a5a5;font-size:14px;}/* Firefox 19+ */
-  :-moz-placeholder           {color:#a5a5a5;font-size:14px;}/* Firefox 18- */
-  :-ms-input-placeholder      {color:#a5a5a5;font-size:14px;}
+  ::-webkit-input-placeholder {color:#a5a5a5;font-size:15px;}
+  ::-moz-placeholder          {color:#a5a5a5;font-size:15px;}/* Firefox 19+ */
+  :-moz-placeholder           {color:#a5a5a5;font-size:15px;}/* Firefox 18- */
+  :-ms-input-placeholder      {color:#a5a5a5;font-size:15px;}
   input::-webkit-outer-spin-button,
   input::-webkit-inner-spin-button {
     -webkit-appearance: none;
@@ -181,6 +181,7 @@
         padding: 17px 15px 17px 48px;
         border-radius: 24px;
         border: 1px solid #e1e1e1;
+        line-height: 1.2;
       }
     }
 
@@ -412,7 +413,7 @@
       }
 
       &__file {
-        top: 78px;
+        top: 80px;
       }
     }
     &__popup-content {

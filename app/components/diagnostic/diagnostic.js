@@ -1,4 +1,4 @@
-if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Safari/i.test(navigator.userAgent)) {
     $(document).ready(function() {
         $("#diagnostic__diagram-1").circliful({
             animationStep: 2,
