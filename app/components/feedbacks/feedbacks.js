@@ -30,37 +30,30 @@ function showSlider() {
             adaptiveHeight: true,
             variableWidth: true,
         });
+
     } else {
         destroySlider(slider1);
-    }
-    let slides = document.querySelectorAll('.feedbacks-item.slick-slide');
-    let slider = document.querySelector('.slick-track');
-    for (let i = 0; i < slides.length; i++){
-        let openSlide = slides[i].querySelector('.open-slide');
-
-        //
-        $('.feedbacks-items').on('beforeChange', function (event, slick, currentSlide, nextSlide) {
-            $('.feedbacks-item').removeClass('opened');
-            $(openSlide).html('+');
-        });
-
-
-        openSlide.addEventListener('click', function () {
-            if(!this.parentElement.classList.contains('opened')) {
-                this.parentElement.classList.add('opened');
-                this.innerHTML = '-';
-            } else {
-                this.parentElement.classList.remove('opened');
-                this.innerHTML = '+';
-            }
-        });
     }
 }
 showSlider();
 $(window).on('resize', showSlider);
 //----------------------------------------slider end
 
+$('.feedbacks-items').on('beforeChange', function (event, slick, currentSlide, nextSlide) {
+    $('.feedbacks-item').removeClass('opened');
+    $('.open-slide').html('+');
+});
 
+
+$('.open-slide').on('click', function () {
+    if(!$(this).parent().hasClass('opened')){
+        $(this).parent().addClass('opened');
+        $(this).html('-');
+    } else {
+        $(this).parent().removeClass('opened');
+        $(this).html('+');
+    }
+});
 //feedback form
 let file = document.querySelector('.file'),
     userName = document.querySelector('.inp-name'),
