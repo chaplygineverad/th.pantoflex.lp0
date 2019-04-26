@@ -116,18 +116,30 @@
     height: 360px;
     padding-top: 171px;
     margin-bottom: 33px;
-    background: linear-gradient(to top, #47ccc8 0%, #2d3663 100%);
     position: relative;
 
-    &::before {
+    &::after {
       content: '';
       display: block;
-      width: 50%;
+      width: 51%;
       height: 100%;
       background: url("../img/operation-bg.jpg") no-repeat 100% 0;
       position: absolute;
       top: 0;
       left: 0;
+      z-index: 0;
+    }
+
+    &::before {
+      content: '';
+      display: block;
+      width: 51%;
+      height: 100%;
+      background: url("../img/background.png") no-repeat 0 0;
+      position: absolute;
+      top: 0;
+      right: 0;
+      z-index: 1;
     }
   }
 
@@ -138,12 +150,12 @@
     margin-left: 645px;
 
     &::before {
-      content: '';
+      //content: '';
       display: block;
       width: 40px;
       height: 40px;
       transform: rotate(45deg);
-      background: linear-gradient(145deg ,#38768e 0,#3a8296 50%,#3c8c9d 100%);
+      background: linear-gradient(136deg ,#38768e 0,#3a8296 50%,#3C8CA1 100%);
       position: absolute;
       left: -74px;
       top: -10px;
@@ -163,7 +175,7 @@
 
     //operation-middle
     &-middle {
-      padding: 65px 0 60px;
+      padding: 60px 0;
     }
 
     &__middle-item {
@@ -184,7 +196,7 @@
     &-bottom {
       padding-top: 160px;
       margin-bottom: 20px;
-      &::before {
+      &::after {
         background: url("../img/operation-bg.jpg") no-repeat 50% 0;
       }
     }
@@ -249,7 +261,11 @@
       padding: 90px 0 30px;
       height: auto;
       margin-bottom: 0;
+      background: linear-gradient(to top,#47ccc8 0,#2d3663 100%);
 
+      &::after {
+        display: none;
+      }
       &::before {
         display: none;
       }

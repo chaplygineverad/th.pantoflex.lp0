@@ -57,7 +57,6 @@
   &-bottom {
     height: 360px;
     padding-top: 173px;
-    background: linear-gradient(to top, #47ccc8 0%, #2d3663 100%);
     position: relative;
 
     &::before {
@@ -65,31 +64,30 @@
       display: block;
       width: 50%;
       height: 100%;
-      background: url("../img/diagnostic-bg.jpg") no-repeat 0% 0;
+      background: url("../img/diagnostic-bg.jpg") no-repeat 0 0;
       position: absolute;
       top: 0;
       left: 50%;
+      z-index: 0;
+    }
+    &::after {
+      content: '';
+      display: block;
+      width: 53%;
+      height: 100%;
+      background: url("../img/background2.png") no-repeat 100% 0;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1;
     }
   }
 
   &__bottom {
     width: 603px;
     position: relative;
-    z-index: 1;
+    z-index: 2;
     margin-left: -20px;
-
-    &::before {
-      content: '';
-      display: block;
-      width: 40px;
-      height: 40px;
-      transform: rotate(45deg);
-      background: linear-gradient(145deg ,#38768e 0,#3a8296 50%,#3c8c9d 100%);
-      position: absolute;
-      right: -26px;
-      top: -10px;
-      z-index: -1;
-    }
   }
 
   &__bottom-title {
@@ -115,7 +113,7 @@
 
 @include r(1199) {
   .diagnostic {
-    padding: 30px 0 40px;
+    padding: 60px 0;
 
     .title {
       br {
@@ -149,7 +147,7 @@
     &__bottom {
       width: 493px;
       position: relative;
-      z-index: 1;
+      z-index: 2;
       margin-left: 0;
 
       &::before {
@@ -209,6 +207,11 @@
     &-bottom{
       padding: 90px 0 40px;
       height: auto;
+      background: linear-gradient(to top,#47ccc8 0,#2d3663 100%);
+
+      &::before, &::after {
+        display: none;
+      }
 
       &::before {
         display: none;
@@ -285,13 +288,15 @@
     .title {
       font-size: 21px;
     }
-
+  &__title {
+    margin-top: -20px;
+  }
   .diagnistic__item {
-      margin-top: -40px;
+      margin-top: -20px;
     }
     &__diagram {
-      width: 300px;
-      height: 265px;
+      width: 260px;
+      height: 240px;
     }
     &__diagram-text {
       bottom: 75px;
