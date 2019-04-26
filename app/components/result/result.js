@@ -35,7 +35,7 @@
 //         animateInView: true
 //     });
 // });
-if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Safari/i.test(navigator.userAgent)) {
     $(document).ready(function() {
         $("#testing__left-diagram").circliful({
             animationStep: 5,
