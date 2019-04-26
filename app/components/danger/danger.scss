@@ -80,6 +80,12 @@
     &__items-box {
       justify-content: space-around;
     }
+    &__icon-text {
+      margin: 12px auto 0;
+      &.-payment {
+        margin-top: 12px;
+      }
+    }
   }
 }
 @media all and (max-width: 767px) {

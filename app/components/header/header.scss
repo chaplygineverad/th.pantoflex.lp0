@@ -475,7 +475,15 @@
       flex-direction: column;
     }
     &__feature {
+      position: relative;
+      max-width: 200px;
       margin: 0 auto 20px;
+      text-align: left;
+      &:before {
+        position: absolute;
+        top: 7px;
+        left: -25px;
+      }
       p {
         font-size: 22px;
       }
@@ -500,6 +508,9 @@
     }
     &__product-box {
       max-width: 275px;
+    }
+    &__features {
+      padding-left: 50px;
     }
   }
 }
