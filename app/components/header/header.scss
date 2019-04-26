@@ -510,7 +510,18 @@
       max-width: 275px;
     }
     &__features {
-      padding-left: 50px;
+      //padding-left: 20px;
+    }
+    &__feature {
+      max-width: 265px;
+      margin: 0 auto 10px;
+      padding-left: 20px;
+      &:before {
+        left: 0;
+      }
+      span {
+        font-size: 14px;
+      }
     }
   }
 }

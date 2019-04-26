@@ -1,10 +1,10 @@
 .composition {
   display: block;
-  margin-bottom: 63px;
+  padding: 55px 0 63px;
   &__title {
     display: block;
     max-width: 540px;
-    margin: 55px auto 0;
+    margin: 0 auto;
     text-align: center;
     font-size: 38px;
     font-weight: 700;
@@ -152,9 +152,7 @@
 }
 @media all and (max-width: 1023px) {
   .composition {
-    margin-bottom: 0;
     &__title {
-      margin-top: 0;
       font-size: 33px;
       line-height: 37px;
     }

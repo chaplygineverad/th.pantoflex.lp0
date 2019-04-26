@@ -1,5 +1,5 @@
 .sertificate {
-  margin: 55px auto 62px;
+  padding: 55px 0 62px;
   &__title {
     max-width: 705px;
     margin:0 auto;
@@ -64,7 +64,6 @@
 }
 @media all and (max-width: 1199px){
   .sertificate {
-    margin: 40px auto;
     &__items-box {
       justify-content: space-around;
     }
@@ -79,7 +78,6 @@
 }
 @media all and (max-width: 1023px) {
   .sertificate {
-    margin: 0;
     &__items-box {
       max-width: 620px
     }

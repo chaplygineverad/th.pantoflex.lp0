@@ -4,16 +4,16 @@ var composition = document.querySelector('.composition');
 
 function getCoords(elem) {
     var box = elem.getBoundingClientRect();
-
+    //console.log(box);
     return {
-        top: box.top + pageYOffset,
+        top: box.top + pageYOffset ,
         left: box.left + pageXOffset
     };
 }
 
 window.addEventListener("scroll", function () {
     var scrolled = window.pageYOffset;
-    var active = document.querySelectorAll('.composition__circle-go');
+    //var active = document.querySelectorAll('.composition__circle-go');
 
 
     if (scrolled >= getCoords(composition).top) {
