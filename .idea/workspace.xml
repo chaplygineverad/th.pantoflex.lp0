@@ -70,7 +70,7 @@
           <file leaf-file-name="header.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/components/header/header.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="455">
+                <state relative-caret-position="8772">
                   <caret line="516" column="26" selection-start-line="516" selection-start-column="26" selection-end-line="516" selection-end-column="26" />
                 </state>
               </provider>
@@ -88,7 +88,7 @@
           <file leaf-file-name="popup.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/components/popup/popup.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
+                <state relative-caret-position="1207">
                   <caret line="71" column="17" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="17" />
                 </state>
               </provider>
@@ -97,7 +97,7 @@
           <file leaf-file-name="composition.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/components/composition/composition.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="387">
+                <state relative-caret-position="2805">
                   <caret line="165" column="1" selection-start-line="165" selection-start-column="1" selection-end-line="165" selection-end-column="1" />
                 </state>
               </provider>
@@ -106,7 +106,7 @@
           <file leaf-file-name="danger.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/components/danger/danger.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="629">
+                <state relative-caret-position="1241">
                   <caret line="73" selection-start-line="73" selection-end-line="73" />
                 </state>
               </provider>
@@ -199,7 +199,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -259,7 +259,7 @@
   <component name="PropertiesComponent">
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../4990/blog-pt.spermaxx.realstory-blog.com" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -311,14 +311,15 @@
       <workItem from="1556006148852" duration="849000" />
       <workItem from="1556262247225" duration="4869000" />
       <workItem from="1556273849692" duration="6778000" />
+      <workItem from="1556784809339" duration="795000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141615000" />
+    <option name="totallyTimeSpent" value="142410000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
       <window_info id="Gulp" order="2" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12961012" />
@@ -604,7 +605,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/components/popup/popup.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
+        <state relative-caret-position="1207">
           <caret line="71" column="17" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="17" />
         </state>
       </provider>
@@ -625,7 +626,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/components/composition/composition.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
+        <state relative-caret-position="2805">
           <caret line="165" column="1" selection-start-line="165" selection-start-column="1" selection-end-line="165" selection-end-column="1" />
         </state>
       </provider>
@@ -653,14 +654,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/components/header/header.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
+        <state relative-caret-position="8772">
           <caret line="516" column="26" selection-start-line="516" selection-start-column="26" selection-end-line="516" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/components/danger/danger.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
+        <state relative-caret-position="1241">
           <caret line="73" selection-start-line="73" selection-end-line="73" />
         </state>
       </provider>
