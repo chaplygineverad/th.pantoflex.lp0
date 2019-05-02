@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="80eec611-6c8b-4d8f-8432-071d264ba27a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/composition/composition.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/composition/composition.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/composition/composition.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/composition/composition.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/danger/danger.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/danger/danger.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/header/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/header/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/style/settings/_common.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/style/settings/_common.sass" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,8 +30,8 @@
           <file leaf-file-name="_common.sass" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/style/settings/_common.sass">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="850">
-                  <caret line="50" column="24" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
+                <state relative-caret-position="493">
+                  <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
                 </state>
               </provider>
             </entry>
@@ -45,7 +40,7 @@
             <entry file="file://$PROJECT_DIR$/app/components/composition/composition.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="272">
-                  <caret line="16" column="63" lean-forward="true" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
+                  <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
                 </state>
               </provider>
             </entry>
@@ -54,7 +49,7 @@
             <entry file="file://$PROJECT_DIR$/app/components/danger/danger.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="425">
-                  <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+                  <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
                 </state>
               </provider>
             </entry>
@@ -72,7 +67,7 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="header.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="header.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/components/header/header.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="455">
@@ -81,11 +76,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="sertificate.scss" pinned="false" current-in-tab="false">
+          <file leaf-file-name="sertificate.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/components/sertificate/sertificate.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="884">
-                  <caret line="52" column="29" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
+                <state relative-caret-position="153">
+                  <caret line="66" selection-start-line="66" selection-end-line="66" />
                 </state>
               </provider>
             </entry>
@@ -111,8 +106,8 @@
           <file leaf-file-name="danger.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/components/danger/danger.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="574">
-                  <caret line="132" column="16" selection-start-line="132" selection-start-column="16" selection-end-line="132" selection-end-column="16" />
+                <state relative-caret-position="629">
+                  <caret line="73" selection-start-line="73" selection-end-line="73" />
                 </state>
               </provider>
             </entry>
@@ -168,14 +163,14 @@
         <option value="$PROJECT_DIR$/app/components/footer/footer.html" />
         <option value="$PROJECT_DIR$/app/components/sertificate/sertificate.html" />
         <option value="$PROJECT_DIR$/app/components/sertificate/sertificate.js" />
-        <option value="$PROJECT_DIR$/app/components/sertificate/sertificate.scss" />
         <option value="$PROJECT_DIR$/app/components/popup/popup.scss" />
         <option value="$PROJECT_DIR$/app/components/composition/composition.js" />
         <option value="$PROJECT_DIR$/app/components/composition/composition.scss" />
         <option value="$PROJECT_DIR$/app/components/danger/danger.html" />
-        <option value="$PROJECT_DIR$/app/components/danger/danger.scss" />
         <option value="$PROJECT_DIR$/app/style/settings/_common.sass" />
         <option value="$PROJECT_DIR$/app/components/header/header.scss" />
+        <option value="$PROJECT_DIR$/app/components/danger/danger.scss" />
+        <option value="$PROJECT_DIR$/app/components/sertificate/sertificate.scss" />
       </list>
     </option>
   </component>
@@ -264,7 +259,7 @@
   <component name="PropertiesComponent">
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../4990/blog-pt.spermaxx.realstory-blog.com" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -315,12 +310,12 @@
       <workItem from="1556004103673" duration="726000" />
       <workItem from="1556006148852" duration="849000" />
       <workItem from="1556262247225" duration="4869000" />
-      <workItem from="1556273849692" duration="5390000" />
+      <workItem from="1556273849692" duration="6778000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140227000" />
+    <option name="totallyTimeSpent" value="141615000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -593,13 +588,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/sertificate/sertificate.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" column="29" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/components/popup/popup.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="833">
@@ -645,7 +633,7 @@
     <entry file="file://$PROJECT_DIR$/app/components/composition/composition.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="63" lean-forward="true" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
+          <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
         </state>
       </provider>
     </entry>
@@ -656,24 +644,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/danger/danger.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="132" column="16" selection-start-line="132" selection-start-column="16" selection-end-line="132" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/components/danger/danger.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
-          <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/style/settings/_common.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="50" column="24" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -681,6 +655,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="455">
           <caret line="516" column="26" selection-start-line="516" selection-start-column="26" selection-end-line="516" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/danger/danger.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/sertificate/sertificate.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/style/settings/_common.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
         </state>
       </provider>
     </entry>
